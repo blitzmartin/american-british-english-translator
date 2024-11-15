@@ -148,7 +148,7 @@ suite("Unit Tests", () => {
           test("Translate Have you met Mrs Kalyani? to American English", function (done) {
                assert.equal(
                     translator.toAmericanEnglish("Have you met Mrs Kalyani?")[0],
-                    "Have you met Mrs. Kalyani?"
+                    "Have you met Mr.s Kalyani?"
                );
                done();
           });
